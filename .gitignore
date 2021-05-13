@@ -1,5 +1,18 @@
-Assets/2D SpritePack
-Assets/Flat Platformer Template
 Library
 Temp
 .vscode
+Game/Game_Data
+Game/Game_Data/globalgamemanagers
+Game/Game_Data/globalgamemanagers.assets
+Game/Game_Data/level0
+Game/Game_Data/level1
+Game/Game_Data/level2
+Game/Game_Data/level3
+Game/Game_Data/sharedassets0.assets
+Game/Game_Data/sharedassets1.assets
+Game/Game_Data/sharedassets1.assets.resS
+Game/Game_Data/sharedassets2.assets
+Game/Game_Data/sharedassets3.assets
+Game/Game_Data/Managed/Assembly-CSharp.dll
+SlimeGame.rar
+UnityPackageManager

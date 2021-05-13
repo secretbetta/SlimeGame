@@ -67,16 +67,11 @@ public class Player : MonoBehaviour {
 	{
 		if(col.tag == "Saw")
 		{
-			GetComponent<ParticleSystem>().Play();
-			print(GetComponent<ParticleSystem>());
-			ParticleSystem.EmissionModule em = GetComponent<ParticleSystem>().emission;
-      		em.enabled = true;
 			gameObject.SetActive(false);
 			Invoke("Death", 2.5f);
 		}
 		if(col.tag == "Death")
 		{
-			GetComponent<ParticleSystem>().Play();
 			gameObject.SetActive(false);
 			Death();
 		}
