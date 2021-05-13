@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///<summary>Portal animation</summary>
 public class Portal : MonoBehaviour {
 	public GameObject _portal;
 

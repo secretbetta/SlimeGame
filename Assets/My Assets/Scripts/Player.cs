@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///<summary>Player Class. Used as main player controller.</summary>
 public class Player : MonoBehaviour {
 	private Rigidbody2D myrigidbody;
 	[SerializeField]
@@ -43,6 +44,8 @@ public class Player : MonoBehaviour {
 			Flip ();
 		}
 	}
+
+	///<summary>Flips sprite around on the Z axis</summary>
 	private void Flip ()
 	{
 		facing = !facing;
@@ -50,6 +53,8 @@ public class Player : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	///<summary>Finish level function, activates win panel</summary>
 	void Finish ()
 	{
 		myrigidbody.bodyType = RigidbodyType2D.Static;

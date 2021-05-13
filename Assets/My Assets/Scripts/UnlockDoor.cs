@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///<summary>Unlocks a door with animation. Requires a key</summary>
 public class UnlockDoor : MonoBehaviour {
 
 	public GameObject door;

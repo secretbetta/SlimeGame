@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///<summary>Dialogue system for NPC's</summary>
 public class NPCDialogue : MonoBehaviour {
 
 	public CanvasGroup canvasgroup;
