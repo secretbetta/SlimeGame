@@ -7,6 +7,8 @@ public class NPCDialogue : MonoBehaviour {
 
 	public CanvasGroup canvasgroup;
 
+	public List<string> dialogues;
+
 	public float rate = 0.01f;
 
 	// Use this for initialization

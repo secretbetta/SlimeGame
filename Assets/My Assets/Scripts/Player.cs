@@ -73,6 +73,7 @@ public class Player : MonoBehaviour {
 		if(col.tag == "Saw")
 		{
 			gameObject.SetActive(false);
+			// gameObject.GetComponent<SpriteRenderer>().enabled = false;
 			Invoke("Death", 2.5f);
 		}
 		if(col.tag == "Death")
@@ -97,6 +98,7 @@ public class Player : MonoBehaviour {
 		// What happens when player dies
 		gameObject.transform.position = new Vector3(spawnPos.x, spawnPos.y);
 		gameObject.SetActive(true);
+		// gameObject.GetComponent<SpriteRenderer>().enabled = true;
 		// ParticleSystem.EmissionModule em = GetComponent<ParticleSystem>().emission;
 		// em.enabled = true;
 	}
