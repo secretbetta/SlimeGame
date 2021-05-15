@@ -1059,6 +1059,26 @@ Prefab:
       propertyPath: grounds.Array.data[0].m_Bits
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 50752562151928980, guid: 75ebd49586090c34e9ff098f09297535,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c87bb5c2915b16d4190ff4f379022ee2, type: 2}
+    - target: {fileID: 58004677987211346, guid: 75ebd49586090c34e9ff098f09297535,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c87bb5c2915b16d4190ff4f379022ee2, type: 2}
+    - target: {fileID: 58004677987211346, guid: 75ebd49586090c34e9ff098f09297535,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61884547138658736, guid: 75ebd49586090c34e9ff098f09297535,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75ebd49586090c34e9ff098f09297535, type: 2}
   m_IsPrefabParent: 0
@@ -1889,35 +1909,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 18
       objectReference: {fileID: 0}
-    - target: {fileID: 4812938692585638, guid: 2e4bff81fdda6a8449d104dcd2abe97c, type: 2}
-      propertyPath: m_LocalScale.x
-      value: -0.2828018
-      objectReference: {fileID: 0}
-    - target: {fileID: 224406517036149346, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212929763095292000, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 114222243164786170, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
-        type: 2}
-      propertyPath: m_Text
-      value: Oh no! They closed the door on us. Hmm... That button looks important
-      objectReference: {fileID: 0}
-    - target: {fileID: 224406517036149346, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224406517036149346, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -1.6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e4bff81fdda6a8449d104dcd2abe97c, type: 2}
   m_IsPrefabParent: 0
@@ -2065,6 +2056,16 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 50921326208633658, guid: 209a76395567e28498d7719a24e3548f,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: e17f755c468302948a18daebfe540d5b, type: 2}
+    - target: {fileID: 61957091541788538, guid: 209a76395567e28498d7719a24e3548f,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: e17f755c468302948a18daebfe540d5b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 209a76395567e28498d7719a24e3548f, type: 2}
   m_IsPrefabParent: 0

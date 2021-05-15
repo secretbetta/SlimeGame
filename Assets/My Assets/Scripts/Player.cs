@@ -68,7 +68,7 @@ public class Player : MonoBehaviour {
             Application.Quit();
         }
     }
-	void OnTriggerEnter2D (Collider2D col)
+	void OnTriggerEnter2D(Collider2D col)
 	{
 		if(col.tag == "Saw")
 		{

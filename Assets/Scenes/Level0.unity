@@ -1390,6 +1390,12 @@ Prefab:
       propertyPath: m_FontData.m_MinSize
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114222243164786170, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Someone help! A thief stole my coins D: Look! He left a trail of coins,
+        after him! >:o'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e4bff81fdda6a8449d104dcd2abe97c, type: 2}
   m_IsPrefabParent: 0

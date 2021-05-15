@@ -58,7 +58,9 @@
      <Compile Include="Assets\Flat Platformer Template\Scripts\WindMill.cs" />
      <Compile Include="Assets\My Assets\Scripts\Gems.cs" />
      <Compile Include="Assets\My Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\My Assets\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\My Assets\Scripts\NPCDialogue.cs" />
+     <Compile Include="Assets\My Assets\Scripts\PingPongMovement.cs" />
      <Compile Include="Assets\My Assets\Scripts\Player.cs" />
      <Compile Include="Assets\My Assets\Scripts\Portal.cs" />
      <Compile Include="Assets\My Assets\Scripts\RespawnObject.cs" />
