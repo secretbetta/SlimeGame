@@ -59,7 +59,6 @@
      <Compile Include="Assets\Flat Platformer Template\Scripts\Paralax.cs" />
      <Compile Include="Assets\Flat Platformer Template\Scripts\WindMill.cs" />
      <Compile Include="Assets\My Assets\Scripts\Gems.cs" />
-     <Compile Include="Assets\My Assets\Scripts\InfiniteBackground.cs" />
      <Compile Include="Assets\My Assets\Scripts\LockCamera.cs" />
      <Compile Include="Assets\My Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\My Assets\Scripts\MovingPlatform.cs" />
