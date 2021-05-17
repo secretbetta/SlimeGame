@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlatformSpawner : MonoBehaviour
 {
     public GameObject target;
+    // private PingPongMovement movingplatform;
     public int count = 0;
     
     public float dist_y = 1.3f;
@@ -19,9 +20,12 @@ public class PlatformSpawner : MonoBehaviour
         float curr_y = curr_position.y;
         while (count > 0) {
             curr_position.y += dist_y;
-            curr_position.x = Random.Range(confine_x_left, confine_x_right);
+            // curr_position.x = Random.Range(confine_x_left, confine_x_right);
+            float speed = Random.Range(0.5f, 5f);
             GameObject newobj = GameObject.Instantiate(target, curr_position, quat);
             // newobj.
+            // movingplatform.Speed = speed;
+            newobj.GetComponent<PingPongMovement>().Speed = speed;
             print("Made object at (x,y): " + curr_position.x + "," + curr_position.y);
             count--;
         }
