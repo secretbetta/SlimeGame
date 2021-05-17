@@ -58,6 +58,7 @@
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
      <Compile Include="Assets\Flat Platformer Template\Scripts\Paralax.cs" />
      <Compile Include="Assets\Flat Platformer Template\Scripts\WindMill.cs" />
+     <Compile Include="Assets\My Assets\Scripts\BossSlime.cs" />
      <Compile Include="Assets\My Assets\Scripts\Gems.cs" />
      <Compile Include="Assets\My Assets\Scripts\LockCamera.cs" />
      <Compile Include="Assets\My Assets\Scripts\Menu.cs" />
