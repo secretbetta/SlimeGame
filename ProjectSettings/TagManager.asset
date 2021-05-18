@@ -8,6 +8,7 @@ TagManager:
   - Gem
   - Portal
   - Death
+  - Platform
   layers:
   - Default
   - TransparentFX

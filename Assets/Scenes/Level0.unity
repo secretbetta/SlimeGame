@@ -1340,6 +1340,62 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 224252891855055014, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 224252891855055014, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 224252891855055014, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 159.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 224252891855055014, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 84.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 224406517036149346, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 224406517036149346, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 224406517036149346, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 159.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 224406517036149346, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 84.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222243164786170, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222243164786170, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222243164786170, guid: 2e4bff81fdda6a8449d104dcd2abe97c,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Someone help! A thief stole my coins D: Look! He left a trail of coins,
+        after him! >:o'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e4bff81fdda6a8449d104dcd2abe97c, type: 2}
   m_IsPrefabParent: 0
